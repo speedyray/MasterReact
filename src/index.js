@@ -1,12 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+// const person = {
+//     name: 'Ray',
+//     age: 55,
+//     walk(){return "Wanzam"},
+//     talk(){return "Kalaputapu"}
+//   };
+//   const walk = person.talk.bind(person);
+//   console.log(walk());
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// const square = function(number){
+//     return number * number;
+// }
+// const square = number => number * number;
+// console.log(square(12));
+// const jobs = [
+//     {  id:1, isActive: true  },
+//     {  id:2, isActive: true  },
+//     {  id:3, isActive: false  },
+// ]
+// const activeJobs = jobs.filter(job => job.isActive )
+// console.log(activeJobs);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+const timer = setTimeout(function() {
+  console.log("This is the good news!");
+}, 5000);
+console.log(timer);
